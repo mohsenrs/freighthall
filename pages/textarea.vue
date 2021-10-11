@@ -37,6 +37,11 @@ export default {
       this.wordCount = txt.split(/\s+/).filter((item) => item).length
     },
   },
+  // middleware({ redirect }) {
+  //   if (!loggedin) {
+  //     return redirect('/login')
+  //   }
+  // }
 }
 </script>
 
