@@ -34,7 +34,7 @@ export default {
     inputTextArea() {
       this.characCount = this.$refs.inputTextArea.value.length
       let txt = this.$refs.inputTextArea.value.trim()
-      this.wordCount = txt.split(/\s+/).filter((item) => item).length
+      this.wordCount = txt.split(/\s+/).length
     },
   },
   // middleware({ redirect }) {
